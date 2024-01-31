@@ -1,57 +1,107 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Montserrat:wght@300;400&family=Raleway&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+:root {
+    --square: 220px;
+    --color2: #1c7356;
 }
 
-header {
-    background-color: #333;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(18, 19, 60);
     color: #fff;
-    padding: 20px;
+    font-family: 'montserrat';
+}
+
+#heading {
+    width: 100vw;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+
+#heading h1 {
+    font-size: 4rem;
+}
+
+#forms {
+    width: 100vw;
+    
+}
+
+form {
+    width: 80%;
+    position: relative;
+    left: 10vw;
+    margin-top: 2rem;
     text-align: center;
 }
 
-.container {
+button {
+    padding: 1rem;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-style: bold;
+    background-color: #1c7356;
+
+}
+
+input {
+    margin-top: 1rem;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+}
+
+#heroCard {
+    width: var(--square);
+    height: var(--square);
+    background-color: var(--color2);
+    text-align: center;  
+    cursor: pointer;
+    margin: 20px; 
+    border-radius: 10px;
+    transition: all 0.3s ease;   
+}
+
+#heroCard:hover {
+    scale: 1.1;
+}
+
+#sorter {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.sidebar {
-    background-color: #f4f4f4;
-    padding: 20px;
-    width: 200px;
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: all 0.4s ease;
 }
 
-.sidebar h2 {
-    margin-top: 0;
+img:hover {
+    opacity: 1;
 }
 
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar li {
-    margin-bottom: 10px;
-}
-
-.sidebar a {
+a {
     text-decoration: none;
-    color: #333;
 }
 
-.sidebar a:hover {
-    color: #666;
+
+
+#hero h4 {
+    
 }
 
-.main-content {
-    flex: 1;
-    padding: 20px;
-}
-
-.recipe-section {
-    margin-bottom: 30px;
-}
-
-.recipe-section h2 {
-    margin-top: 0;
+h1, h2, h3, h4, p {
+    margin: 10px;
+    background-color: #ffffff00;
 }

@@ -1,0 +1,26 @@
+{
+  "recipes": [
+    {
+        "title": "Steam/Boiled White Rice",
+        "description": "White Rice",
+        "prep time": "21",
+        "image url": "style.jpg",
+        "ingredients": [
+          "1 Cup white rice",
+          "1.5 Cups of water",
+          "2 cloves garlic, minced",
+          "2 large eggs",
+          "50g grated Parmesan cheese",
+          "Salt and black pepper to taste",
+          "Chopped parsley for garnish"
+        ],
+        "instructions": [
+          "Cook spaghetti in a pot of boiling salted water until al dente. Reserve 1 cup of pasta water, then drain the spaghetti.",
+          "In a skillet, cook the pancetta or guanciale until crispy. Add garlic and cook until fragrant.",
+          "In a bowl, whisk together eggs, Parmesan cheese, and a pinch of black pepper.",
+          "Add drained spaghetti to the skillet with the pancetta. Remove from heat and quickly stir in the egg mixture, adding pasta water as needed to create a creamy sauce.",
+          "Serve immediately, garnished with chopped parsley and extra Parmesan cheese."
+        ]
+      }
+  ]
+}
