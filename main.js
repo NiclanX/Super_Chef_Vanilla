@@ -1,8 +1,8 @@
 
-       let data = 'data.json'
+       let data1 = 'data.json'
        
        // Fetch JSON data
-        fetch(data) // Assuming data.json is in the same directory as this HTML file
+        fetch(data1) // Assuming data.json is in the same directory as this HTML file
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
