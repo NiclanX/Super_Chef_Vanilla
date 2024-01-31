@@ -2,9 +2,10 @@
   "recipes": [
     {
         "title": "Steam/Boiled White Rice",
+        "page_url": "#",
         "description": "White Rice",
         "prep time": "21",
-        "image url": "style.jpg",
+        "image_url": "sw.jpg",
         "ingredients": [
           "1 Cup white rice",
           "1.5 Cups of water",
