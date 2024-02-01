@@ -9,7 +9,7 @@ fetch('data.json')
         // Map over the recipes array and create HTML representation for each recipe
         const recipeHTML = data.recipes.map(recipe => {
             return `
-                <a href="${recipe.page_url}">
+                <a href="${recipe.name}.html">
                     <div id="heroCard">
                         <img src="${recipe.image_url}" alt="" loading="lazy">
                         <h4>${recipe.title}</h4>
@@ -26,3 +26,5 @@ fetch('data.json')
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
     });
+
+

@@ -2,6 +2,7 @@
   "recipes": [
     {
         "title": "Steam/Boiled White Rice",
+        "name": "rice",
         "page_url": "#",
         "description": "White Rice",
         "prep time": "21",
